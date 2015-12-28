@@ -459,7 +459,7 @@ main() {
 	add_user
 	install_bench
 	if $SETUP_BENCH; then
-		setup_bench
+	#	setup_bench
 	fi
 
 	echo
