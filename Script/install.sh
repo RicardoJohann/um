@@ -458,9 +458,9 @@ main() {
 	echo "Adding frappe user"
 	add_user
 	install_bench
-	if $SETUP_BENCH; then
+	#if $SETUP_BENCH; then
 	#	setup_bench
-	fi
+	#fi
 
 	echo
 	RUNNING=""
