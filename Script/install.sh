@@ -388,10 +388,10 @@ install_bench() {
 
 setup_bench() {
 	echo Installing frappe-bench
-	FRAPPE_BRANCH="v4.x.x"
+	FRAPPE_BRANCH="v4.11.4"
 	ERPNEXT_APPS_JSON="https://raw.githubusercontent.com/RicardoJohann/um/master/Script/install.json"
 	if $SETUP_PROD; then
-		FRAPPE_BRANCH="v4.x.x"
+		FRAPPE_BRANCH="v4.11.4"
 		ERPNEXT_APPS_JSON="https://raw.githubusercontent.com/RicardoJohann/um/master/Script/install.json"
 	fi
 
